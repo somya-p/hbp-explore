@@ -13,6 +13,8 @@
 		F30A900E2997F23600622405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30A900D2997F23600622405 /* Assets.xcassets */; };
 		F30A90112997F23600622405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30A900F2997F23600622405 /* LaunchScreen.storyboard */; };
 		F30A90192997FE0B00622405 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A90182997FE0B00622405 /* Model.swift */; };
+		F30A901B2998248B00622405 /* Directions.geojson in Resources */ = {isa = PBXBuildFile; fileRef = F30A901A299819F300622405 /* Directions.geojson */; };
+		F30A901D29988BDC00622405 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A901C29988BDC00622405 /* LandingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F30A90102997F23600622405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F30A90122997F23600622405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F30A90182997FE0B00622405 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F30A901A299819F300622405 /* Directions.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Directions.geojson; sourceTree = "<group>"; };
+		F30A901C29988BDC00622405 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				F30A90042997F23200622405 /* AppDelegate.swift */,
 				F30A90062997F23200622405 /* SceneDelegate.swift */,
 				F30A90082997F23200622405 /* ViewController.swift */,
+				F30A901A299819F300622405 /* Directions.geojson */,
 				F30A90182997FE0B00622405 /* Model.swift */,
 				F30A900D2997F23600622405 /* Assets.xcassets */,
 				F30A900F2997F23600622405 /* LaunchScreen.storyboard */,
 				F30A90122997F23600622405 /* Info.plist */,
+				F30A901C29988BDC00622405 /* LandingView.swift */,
 			);
 			path = "iris-somya-hbp";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F30A901B2998248B00622405 /* Directions.geojson in Resources */,
 				F30A90112997F23600622405 /* LaunchScreen.storyboard in Resources */,
 				F30A900E2997F23600622405 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F30A90092997F23200622405 /* ViewController.swift in Sources */,
+				F30A901D29988BDC00622405 /* LandingView.swift in Sources */,
 				F30A90052997F23200622405 /* AppDelegate.swift in Sources */,
 				F30A90072997F23200622405 /* SceneDelegate.swift in Sources */,
 				F30A90192997FE0B00622405 /* Model.swift in Sources */,

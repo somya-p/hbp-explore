@@ -6,3 +6,9 @@
 //
 
 import Foundation
+import MapKit
+
+struct Route {
+    var features: [MKGeoJSONFeature]!
+}
+
